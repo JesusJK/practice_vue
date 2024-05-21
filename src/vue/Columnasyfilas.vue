@@ -47,7 +47,7 @@ function organizar_filas() {
                         {{ item.title }} <span>{{ item.estado ? '-':'+' }}</span></button>
                     <div v-show="item.estado"
                         class=" flex justify-center items-center text-center p-2 mx-auto w-max ">
-                        dale
+                        {{ item.subtitle }}
                     </div>
                 </li>
 
